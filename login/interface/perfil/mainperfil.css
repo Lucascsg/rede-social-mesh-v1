@@ -1,0 +1,170 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background: linear-gradient(180deg, #133b61, #3c7db9);
+    color: #092844;
+}
+
+.profile-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #e6f3ff;
+    border-radius: 0 0 20px 20px;
+}
+
+.cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-header img {
+    margin-left: 20px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.profile-header h1 {
+    margin: 10px 0;
+}
+
+.profile-header h2 {
+    color: #2a5074;
+}
+
+.profile-content h3 {
+    margin-top: 10px;
+}
+
+.profile-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.profile-content ul li {
+    margin-bottom: 20px;
+}
+
+.profile-content ul li h4 {
+    margin: 5px 0;
+}
+
+h3, h4 {
+    margin: 0;
+    color: #105697;
+}
+
+button {
+    cursor: pointer;
+    margin-right: 30px;
+    background: #268ae7;
+    border: none;
+    color: #e6f3ff;
+    padding: 8px;
+    width: 150px;
+    height: 30px;
+    border-radius: 15px;
+}
+
+li {
+    padding: 3px;
+}
+
+.sobre {
+    padding: 0.002%;
+}
+
+li, .sobre {
+    padding-left: 20px;
+    padding-right: 20px;
+    background: #ced6dd5b;
+    border-radius: 20px;
+}
+
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    background-color: #133b61;
+    flex-direction: row;
+    position: relative;
+    color: #e6f3ff;
+
+}
+
+#mesh {
+    margin: 0;
+    padding: 0;
+    color: #e6f3ff;
+    padding: 10px;
+    font-size: 40px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.buscar-box {
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    transition: .5s;
+}
+
+.buscar-box.ativar {
+    width: 400px;
+}
+
+.buscar-box .lupa-buscar,
+.buscar-box .btn-fechar {
+    min-width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.buscar-box .btn-fechar i {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.buscar-box .lupa-buscar i {
+    font-size: 25px;
+}
+
+.buscar-box .input-buscar {
+    position: absolute;
+    left: 80px;
+    width: calc(100% - 120px);
+    height: 100%;
+    line-height: 60px;
+}
+
+.buscar-box .input-buscar input {
+    border-radius: 30px;
+    padding: 8px;
+    background-color: #e6f3ff;
+    border: 2px;
+    outline: 0;
+    font-size: 20px;
+    color: #133b61;
+}
