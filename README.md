@@ -42,7 +42,7 @@ Este projeto consiste no desenvolvimento de uma rede social corporativa fictíci
 
 ---
 
-### 👨‍💻 Desenvolvido por
+### 👨‍💻 Projeto em Grupo
 
 **Lucas Casagrande Silva**  
 📧 [lucas.csg11@gmail.com](mailto:lucas.csg11@gmail.com)  
